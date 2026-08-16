@@ -1,0 +1,111 @@
+
+/* tablet */
+@media screen and (max-width: 768px) {
+  
+
+    .nav .user-button {
+        width: 20vw;
+        font-size: 1rem;
+
+    }
+
+    .main-container {
+        margin-block: 30%;
+        margin-left: 10%;
+    }
+
+    .left-container {
+        width: 40vw;
+        height: 30vh;
+        margin-left: 0px;
+    }
+
+    .left-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .left-container h2 {
+        font-size: 1.3rem;
+    }
+
+    .left-container p {
+        font-size: 1.2rem;
+    }
+
+    .left-container button {
+        height: 5vh;
+        width: 40vw;
+        font-size: 1.2rem;
+
+    }
+
+   
+
+    .right-container {
+        width: 50vw;
+        height: 30vh;
+        margin: 5%;
+    }
+
+  
+
+}
+
+/* mobile */
+@media (max-width: 376px) {
+    .nav {
+        width: 100vw;
+        justify-content: space-between;
+        padding: 0 10px;
+    }  
+     .nav ul {
+        display: none;
+      }
+    .user-button {
+        width: 50vw;
+        height: 40px;
+        font-size: 14px;
+        margin-top: 0;
+        margin-right: 10px;
+    }
+    .main-container {
+        flex-direction: column;
+        margin: 0;
+    }
+    .left-container {
+        width: 90vw;
+        align-self: start;
+        text-align: start;
+        margin-left: 4vw;
+    }
+    .left-container button{
+        width:70vw;
+    }
+    .right-container {
+        width: 90vw;
+        height: 200px;
+        margin-top: 100px;
+    }
+
+    /* hamburger menu */
+   .nav ul li a{
+        color: white;
+    }
+    .menu-btn{
+        display: block;
+    } 
+  
+    .menu-btn:focus ~ .ul{
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        height: 100vh;
+        width: 70vw;
+        margin-top: 0;
+        background-color: black;
+        position: absolute;
+        right: 0;
+        top: 20px;
+        color: white;
+    }
+}
