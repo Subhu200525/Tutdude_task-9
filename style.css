@@ -109,7 +109,7 @@
     background-size: cover;
 }
 
-.left-container button {
+.left-container .btn {
     font-weight: bold;
     color: white;
     color: blue;
@@ -120,16 +120,13 @@
     transition: all 0.3s ease-in-out;
 }
 
-.left-container button:hover {
+/* btn animation */
+.btn:hover{
+    transform: rotate(-8deg) scaleX(1.2);
     background-color: blue;
     color: white;
     cursor: pointer;
     box-shadow: 0 0 40px black;
-}
-
-/* btn animation */
-.btn:hover{
-   transform: rotate(-8deg) scaleX(1.2);
 }
 
 
